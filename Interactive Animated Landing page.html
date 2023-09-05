@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="Interactive Animated Landing page-style.css" type="text/css">
+</head>
+<body>
+  <header>
+    <div class="right-menu">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#About-us">About us</a></li>
+        <li><a href="#Order-online">Order online</a></li>
+        <li><a href="#Contact-us">Contact us</a></li>
+      </ul>
+    </div>
+  </header>
+<section class="Home-page" id="Home">
+  <div class="container">
+    <div class="text">
+      <h1 class="welcome">Welcome To<br><span class="restaurant-name">Prince Restaurant</span></h1>
+      <p>You will find yourselves in stylish and special surroundings.<br> Our aim is to make you feel comfortable when you dine with us.</p>
+      <a href="#About-us" class="button-main">EXPLORE MORE</a>
+    </div>
+  </div>
+</section>
+<section class="Aboutus-page">
+  <div class="container">
+    <div class="image-text" id="About-us">
+      <div class="aboutus-heading"><p>About Us</p></div>
+      <div class="about-image"><img src="aboutus.jpg" alt="aboutus"></div>
+      <p>We at Prince would love to serve you authentic biriyanis straight from our kitchen ready for you. We will fulfil you hunger needs and ensure that we leave you licking your fingers and asking for more yummy dishes!
+        We believe passionately in great bargains and excellent service, which is why we commit ourselves to giving you the best of both. If you’re looking for something new, you’re in the right place. We strive to be industrious and innovative, offering our customers something they want, putting their desires at the top of our priority list.</p>
+    </div>
+  </div>
+</section>
+<section class="Menu-page" id="Menu">
+  <div class="container">
+    <div class="menubar">
+       <div class="menu-image"><a href="soup-list.html" class="click_popup"><img src="soup.jfif"></a><div class="soup">Soups</div></div>
+       <div class="menu-image"><a href="starters-list.html" class="click_popup"><img src="starters non veg.jpeg"></a><div class="starters">Starters</div></div>
+       <div class="menu-image"><a href="briyani-list.html" class="click_popup"><img src="briyani.jpg"></a><div class="briyani">Briyani's</div></div>
+       <div class="menu-image"><a href="noodles-list.html" class="click_popup"><img src="noodles.jfif"></a><div class="noodles">Noodles</div></div>
+       <div class="menu-image"><a href="beverages-list.html" class="click_popup"><img src="beverages.jpg"></a><div class="beverages">Beverages</div></div>
+       <div class="menu-image"><a href="desserts-list.html" class="click_popup"><img src="desserts.jpg"></a><div class="desserts">Desserts</div></div>
+    </div>
+  </div>
+</section>
+<section class="Order-page">
+  <div class="container">
+    <div class="order" id="Order-online">
+      <div class="text"><p>Feel The Rich Taste Of Briyani</p></div>
+      <a href="#Menu" class="button-order">ORDER ONLINE</a>
+    </div>
+  </div>
+</section>
+<footer class="Contact-page" id="Contact-us">
+  <div class="row primary">
+    <div class="column about">
+      <h3>Connect</h3>
+      <p>
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        Sienna Towers, Service Road, Bangalore
+      </p>
+      <div class="social">
+        <i class="fa fa-facebook-square"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-linkedin-square"></i>
+        <i class="fa fa-instagram"></i>
+      </div>
+    </div>
+  
+    <div class="column link">
+      <h3>Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#support">Support</a></li>
+      </ul>
+    </div>
+  
+    <div class="column subscribe">
+      <h3>Subscription</h3>
+      <div>
+        <form name="Subscription-form" onsubmit="var result=validation(this.email.value);return result;">
+        <input name="email" type="email" placeholder="Your email id here"/>
+        <button onclick="subscribe()">Subscribe</button>
+      </form>
+      </div>
+    </div>
+  </div>
+  <div class="row copyright">
+    <div class="footer-menu">
+  
+    <a href="#Home">Home</a>
+    <a href="#About-us">About Us</a>
+    <a href="#Menu">Menu</a>
+    <a href="#Order-online">Order online</a>
+  
+    </div>
+     <p>Copyright &copy; 2023</p>
+  </div>    
+</footer>
+</body>
+<script src="Landing page.js"></script>
+</html>

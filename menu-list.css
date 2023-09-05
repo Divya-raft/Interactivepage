@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:  radial-gradient(lightgray, gray, black) no-repeat center center fixed;
+    background-size: cover;
+  }
+.heading 
+{
+    text-align: center;
+}
+.menu-soup-list li,
+.menu-starters-list li,
+.menu-briyani-list li,
+.menu-noodles-list li,
+.menu-beverages-list li,
+.menu-desserts-list li
+{
+     margin-left:500px;
+}
+.menu-soup-list,
+.menu-beverages-list,
+.menu-briyani-list,
+.menu-desserts-list,
+.menu-noodles-list,
+.menu-starters-list
+{
+    margin-top:200px;
+}
